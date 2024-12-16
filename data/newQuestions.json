@@ -1,0 +1,1922 @@
+[
+    {
+        "category": "mongo",
+        "question": "What is MongoDB?",
+        "options": [
+            "A relational database",
+            "A NoSQL database",
+            "A type of API",
+            "A programming language"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the default port for MongoDB?",
+        "options": [
+            "3306",
+            "5432",
+            "27017",
+            "8080"
+        ],
+        "answer": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "Which command is used to show all databases in MongoDB?",
+        "options": [
+            "show dbs",
+            "list databases",
+            "db.show()",
+            "show databases"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the purpose of the `_id` field in MongoDB?",
+        "options": [
+            "Stores a unique identifier for each document",
+            "Acts as a foreign key",
+            "Defines the document's type",
+            "Specifies the collection name"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "What command is used to check the version of MongoDB?",
+        "options": [
+            "mongo --version",
+            "db.version()",
+            "mongo --version()",
+            "db.version"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "What is a collection in MongoDB?",
+        "options": [
+            "A table in a relational database",
+            "A schema in MongoDB",
+            "A set of documents",
+            "A database backup"
+        ],
+        "answer": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you delete a document in MongoDB?",
+        "options": [
+            "db.collection.removeOne()",
+            "db.collection.delete()",
+            "db.collection.deleteOne()",
+            "db.collection.dropOne()"
+        ],
+        "answer": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "Which operator is used to match documents with specific field values?",
+        "options": [
+            "$eq",
+            "$match",
+            "$select",
+            "$find"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you switch to a different database in MongoDB shell?",
+        "options": [
+            "use <dbname>",
+            "switch <dbname>",
+            "db.<dbname>.use()",
+            "db.change()"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `--auth` option enable when starting a MongoDB instance?",
+        "options": [
+            "Disables user authentication",
+            "Enables user authentication",
+            "Creates a new admin user",
+            "Backs up the database"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you insert one document into a collection?",
+        "options": [
+            "db.collection.addOne()",
+            "db.collection.insert()",
+            "db.collection.insertOne()",
+            "db.collection.save()"
+        ],
+        "answer": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the use of the `$match` stage in MongoDB aggregation?",
+        "options": [
+            "Filters documents based on a condition",
+            "Groups documents",
+            "Sorts documents",
+            "Joins documents from another collection"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "Which method is used to update a document in MongoDB?",
+        "options": [
+            "db.collection.modifyOne()",
+            "db.collection.updateOne()",
+            "db.collection.updateDocument()",
+            "db.collection.changeOne()"
+        ],
+        "answer": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `$set` operator do in an update operation?",
+        "options": [
+            "Deletes a field from a document",
+            "Increments a numeric field",
+            "Adds or updates fields in a document",
+            "Replaces the entire document"
+        ],
+        "answer": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the BSON data format used for in MongoDB?",
+        "options": [
+            "For client-side JavaScript code",
+            "For network communication",
+            "To store documents internally",
+            "For querying the database"
+        ],
+        "answer": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the primary purpose of replication in MongoDB?",
+        "options": [
+            "To improve query performance",
+            "To provide high availability",
+            "To enforce schema validation",
+            "To compress data"
+        ],
+        "answer": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `$regex` operator do in MongoDB?",
+        "options": [
+            "Matches strings using a regular expression",
+            "Sorts results in ascending order",
+            "Groups documents by a field",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `db.collection.drop()` command do?",
+        "options": [
+            "Removes all documents in a collection",
+            "Deletes a document",
+            "Deletes a collection and its indexes",
+            "Clears the cache"
+        ],
+        "answer": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What will `db.collection.updateMany()` do?",
+        "options": [
+            "Update a single document",
+            "Update all matching documents",
+            "Replace all documents in the collection",
+            "Insert new documents"
+        ],
+        "answer": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the purpose of `db.collection.createIndex()` in MongoDB?",
+        "options": [
+            "To create a new collection",
+            "To optimize query performance",
+            "To define a schema for a collection",
+            "To backup the database"
+        ],
+        "answer": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `$lookup` operator do in MongoDB aggregation?",
+        "options": [
+            "Performs a join operation with another collection",
+            "Sorts documents",
+            "Filters documents",
+            "Projects specific fields"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "Which command shows the execution statistics of a query in MongoDB?",
+        "options": [
+            "db.collection.find().profile()",
+            "db.collection.explain()",
+            "db.collection.stats()",
+            "db.collection.getQueryInfo()"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `--auth` option enable when starting a MongoDB instance?",
+        "options": [
+            "Disables user authentication",
+            "Enables user authentication",
+            "Creates a new admin user",
+            "Backs up the database"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the difference between `db.collection.remove()` and `db.collection.deleteOne()`?",
+        "options": [
+            "remove deletes multiple documents, deleteOne deletes one",
+            "remove removes a collection, deleteOne removes a document",
+            "remove removes a single document, deleteOne deletes all documents",
+            "They are the same"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `$unwind` stage do in MongoDB aggregation?",
+        "options": [
+            "Splits an array into separate documents",
+            "Joins documents from another collection",
+            "Sorts documents by a field",
+            "Groups documents"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "What is sharding in MongoDB?",
+        "options": [
+            "Distributing data across multiple servers",
+            "Creating backups of the database",
+            "Encrypting documents",
+            "Grouping documents by fields"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you prevent an index from being used in MongoDB?",
+        "options": [
+            "By disabling the index",
+            "By using the `hint()` method",
+            "By using `db.collection.dropIndex()`",
+            "By using `db.collection.createIndex()`"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the use of `db.collection.aggregate()` in MongoDB?",
+        "options": [
+            "To fetch documents from a collection",
+            "To group documents by fields",
+            "To define a schema",
+            "To perform operations on documents"
+        ],
+        "answer": 3,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "What is a replica set in MongoDB?",
+        "options": [
+            "A group of primary and secondary nodes that provide data redundancy",
+            "A way to shard data",
+            "A mechanism for indexing data",
+            "A way to optimize query execution"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `db.collection.find().explain()` method do?",
+        "options": [
+            "Explains how a query is executed",
+            "Shows the indexes used by the query",
+            "Lists all documents in the collection",
+            "Describes the data model"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you configure a MongoDB replica set?",
+        "options": [
+            "By using the `rs.initiate()` method",
+            "By using the `db.createReplicaSet()` method",
+            "By using the `db.replicate()` method",
+            "By using the `db.setupReplica()` method"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the maximum size of a single document in MongoDB?",
+        "options": [
+            "1MB",
+            "16MB",
+            "256MB",
+            "64MB"
+        ],
+        "answer": 1,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "What does the `db.collection.watch()` method do in MongoDB?",
+        "options": [
+            "Observes changes in a collection in real-time",
+            "Logs all queries executed",
+            "Defines a schema for a collection",
+            "Automatically creates indexes for the collection"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you enable authentication in a MongoDB deployment?",
+        "options": [
+            "By setting the `auth` option in the configuration file",
+            "By running `db.createUser()`",
+            "By running `db.enableAuth()`",
+            "By enabling `admin` user"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you upgrade MongoDB from version 3.6 to 4.0?",
+        "options": [
+            "By using `mongod --upgrade`",
+            "By upgrading the MongoDB service",
+            "By manually upgrading the binaries",
+            "By restoring from backup"
+        ],
+        "answer": 2,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the `collStats` command used for in MongoDB?",
+        "options": [
+            "To get statistics about a collection",
+            "To get statistics about a database",
+            "To create a collection",
+            "To optimize the collection"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you back up a MongoDB database?",
+        "options": [
+            "By using `mongodump`",
+            "By using `mongoexport`",
+            "By using `mongorestore`",
+            "By using `mongodump` with `--auth`"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the purpose of the `db.collection.getShardDistribution()` command?",
+        "options": [
+            "Displays the distribution of data across shards",
+            "Displays the query execution plan",
+            "Shows the indexes used in the query",
+            "Shows the replica set status"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "What is the role of the `mongos` process in MongoDB sharding?",
+        "options": [
+            "It routes queries to the appropriate shard",
+            "It performs backup operations",
+            "It manages authentication",
+            "It configures the replica set"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "mongo",
+        "question": "How do you configure a sharded cluster in MongoDB?",
+        "options": [
+            "By using the `sh.enableSharding()` method",
+            "By creating a config server",
+            "By setting `shardKey` and `shardCollection()`",
+            "All of the above"
+        ],
+        "answer": 3,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "What is React?",
+        "options": [
+            "A JavaScript library for building user interfaces",
+            "A programming language",
+            "A server-side framework",
+            "A database"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "Which of the following is used to create a React component?",
+        "options": [
+            "React.Component",
+            "React.createComponent",
+            "React.createElement",
+            "React.functionComponent"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "What is JSX in React?",
+        "options": [
+            "A syntax extension that allows HTML to be written in JavaScript",
+            "A library for routing",
+            "A styling method for components",
+            "A server-side rendering tool"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "Which method is used to update the state of a component in React?",
+        "options": [
+            "setState()",
+            "updateState()",
+            "stateUpdate()",
+            "setStateValue()"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "What is the purpose of React's Virtual DOM?",
+        "options": [
+            "To improve performance by minimizing direct manipulation of the real DOM",
+            "To create server-side rendering",
+            "To handle global state management",
+            "To manage HTTP requests"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "Which React function is used to render elements to the DOM?",
+        "options": [
+            "ReactDOM.render()",
+            "React.createElement()",
+            "React.render()",
+            "React.mount()"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "How do you pass data to a React component?",
+        "options": [
+            "Using props",
+            "Using state",
+            "Using context",
+            "Using render props"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "What is the purpose of the 'key' prop in React?",
+        "options": [
+            "To uniquely identify elements in a list for efficient updates",
+            "To manage component state",
+            "To bind events to elements",
+            "To assign styling to components"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "What is the purpose of 'useState' in React?",
+        "options": [
+            "To manage state within a function component",
+            "To manage props",
+            "To create a class component",
+            "To manage component lifecycle"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "Which hook is used to perform side effects in function components?",
+        "options": [
+            "useEffect",
+            "useState",
+            "useContext",
+            "useCallback"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "react",
+        "question": "What does the 'useEffect' hook do in React?",
+        "options": [
+            "It handles side effects in functional components",
+            "It updates the state in class components",
+            "It manages global state",
+            "It is used to render JSX"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "How can you create a functional component in React?",
+        "options": [
+            "By declaring a function that returns JSX",
+            "By using the 'React.createComponent' method",
+            "By using 'class' keyword",
+            "By using 'useComponent' hook"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "What does 'useContext' hook provide in React?",
+        "options": [
+            "It allows you to access context in a function component",
+            "It provides local state management",
+            "It allows for event handling",
+            "It enables component lifecycle methods"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "How do you bind event handlers in React?",
+        "options": [
+            "Using 'this' keyword in class components or arrow functions",
+            "Using 'bind()' method in class components",
+            "Using 'useEvent()' hook in function components",
+            "Both A and B"
+        ],
+        "answer": 3,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "What is 'React Router' used for?",
+        "options": [
+            "To handle routing in React applications",
+            "To manage state",
+            "To perform AJAX requests",
+            "To manage user authentication"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "How do you handle forms in React?",
+        "options": [
+            "By using controlled components",
+            "By using state to store input values",
+            "By using 'onChange' and 'onSubmit' event handlers",
+            "All of the above"
+        ],
+        "answer": 3,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "What is the difference between 'props' and 'state' in React?",
+        "options": [
+            "Props are immutable, state is mutable",
+            "Props are for styling, state is for functionality",
+            "State is used for data flow between components",
+            "Props are used for lifecycle methods"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "What does the 'React.Fragment' component do?",
+        "options": [
+            "It allows you to group multiple elements without adding extra nodes to the DOM",
+            "It creates a component that can hold other components",
+            "It is used for conditional rendering",
+            "It adds a class to multiple elements"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "What is the purpose of the 'useMemo' hook in React?",
+        "options": [
+            "To memoize expensive calculations",
+            "To store state values in memory",
+            "To manage side effects",
+            "To create new components"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "Which method is used to prevent unnecessary re-renders of a component?",
+        "options": [
+            "shouldComponentUpdate()",
+            "componentDidUpdate()",
+            "componentWillMount()",
+            "useEffect()"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "react",
+        "question": "What is 'React Context' used for?",
+        "options": [
+            "To manage global state in a React application",
+            "To handle HTTP requests",
+            "To modify the DOM",
+            "To perform side effects"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "What does the 'useReducer' hook do in React?",
+        "options": [
+            "It is used for managing complex state logic in functional components",
+            "It performs side effects in functional components",
+            "It helps in component mounting",
+            "It is used for routing"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "What is 'React.memo' used for?",
+        "options": [
+            "It is used to prevent re-renders of a component when props have not changed",
+            "It stores a component's state",
+            "It is used for lazy loading components",
+            "It handles error boundaries"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "How do you optimize performance in React?",
+        "options": [
+            "By using shouldComponentUpdate() and React.memo()",
+            "By using Context API for state management",
+            "By using useEffect for data fetching",
+            "By using class components"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "What is 'server-side rendering' (SSR) in React?",
+        "options": [
+            "Rendering React components on the server before sending to the client",
+            "Rendering components on the client-side",
+            "Using React to build APIs",
+            "Rendering React components with Redux"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "How can you make a React component 'lazy-loaded'?",
+        "options": [
+            "By using React.lazy() and Suspense",
+            "By using useState() hook",
+            "By using componentDidMount()",
+            "By using server-side rendering"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "What is the significance of 'React.StrictMode'?",
+        "options": [
+            "It helps identify potential problems in the app during development",
+            "It optimizes component rendering",
+            "It helps with error boundaries",
+            "It manages the component lifecycle"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "What does 'useRef' hook do in React?",
+        "options": [
+            "It creates a mutable reference to a DOM element",
+            "It manages component lifecycle",
+            "It stores state in functional components",
+            "It performs side effects"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "What is 'React Suspense' used for?",
+        "options": [
+            "It allows components to wait for asynchronous data to load",
+            "It manages global state",
+            "It performs routing",
+            "It helps with CSS styling"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "What is the purpose of 'Error Boundaries' in React?",
+        "options": [
+            "To catch JavaScript errors in components and display fallback UI",
+            "To manage state errors",
+            "To optimize performance",
+            "To manage asynchronous operations"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "react",
+        "question": "What is 'Concurrent Mode' in React?",
+        "options": [
+            "It allows React to interrupt rendering to work on multiple tasks simultaneously",
+            "It helps with lazy loading components",
+            "It manages server-side rendering",
+            "It handles error boundaries"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "What is the difference between 'useLayoutEffect' and 'useEffect'?",
+        "options": [
+            "useLayoutEffect runs synchronously after all DOM mutations, while useEffect runs asynchronously after paint",
+            "There is no difference",
+            "useLayoutEffect is used for error boundaries",
+            "useEffect is used for routing"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "What is the purpose of 'React Concurrent Mode'?",
+        "options": [
+            "To allow React to prioritize and interrupt rendering",
+            "To optimize server-side rendering",
+            "To manage global state",
+            "To handle asynchronous data fetching"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "How do you handle error boundaries in React?",
+        "options": [
+            "By using componentDidCatch() lifecycle method in class components",
+            "By using React.memo()",
+            "By using the useEffect() hook",
+            "By using Context API"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "What is 'React Suspense for Data Fetching'?",
+        "options": [
+            "A new feature that allows components to wait for data before rendering",
+            "A way to optimize component re-renders",
+            "A method for error handling",
+            "A way to manage state"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "What is the difference between 'React.memo()' and 'PureComponent'?",
+        "options": [
+            "React.memo() is for function components, PureComponent is for class components",
+            "Both are for routing",
+            "React.memo() is used for performance optimization, PureComponent is for managing state",
+            "There is no difference"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "What does 'React Profiler' do?",
+        "options": [
+            "It helps identify performance bottlenecks in React apps",
+            "It helps with routing",
+            "It tracks state changes",
+            "It handles error boundaries"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "What is the role of the 'ReactDOM.hydrate()' method?",
+        "options": [
+            "It is used to hydrate a server-rendered app",
+            "It manages state transitions",
+            "It handles client-side routing",
+            "It optimizes component rendering"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "How can you optimize rendering performance in React?",
+        "options": [
+            "By using React.memo(), PureComponent, and shouldComponentUpdate()",
+            "By using the useState() hook",
+            "By lazy-loading components",
+            "By using Redux"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "react",
+        "question": "What is the purpose of the 'React.createContext()' method?",
+        "options": [
+            "To create a context object for sharing state across components",
+            "To create a new component",
+            "To handle component re-renders",
+            "To optimize server-side rendering"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "What does 'var' do in JavaScript?",
+        "options": [
+            "Declares a variable",
+            "Defines a function",
+            "Creates an object",
+            "Loops through an array"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "Which of the following is a JavaScript data type?",
+        "options": [
+            "Integer",
+            "Boolean",
+            "Character",
+            "String"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "How do you define a function in JavaScript?",
+        "options": [
+            "function myFunction()",
+            "function:myFunction()",
+            "def myFunction()",
+            "myFunction() =>"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "Which symbol is used for comments in JavaScript?",
+        "options": [
+            "// for single-line comment",
+            "# for single-line comment",
+            "/* */ for multi-line comment",
+            "Both // and /* */"
+        ],
+        "answer": 3,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "How do you declare a constant in JavaScript?",
+        "options": [
+            "const variable",
+            "constant variable",
+            "var variable",
+            "define variable"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "What is the correct way to check if a variable is an array in JavaScript?",
+        "options": [
+            "Array.isArray()",
+            "isArray()",
+            "array.check()",
+            "checkArray()"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "Which method is used to convert a string into an integer in JavaScript?",
+        "options": [
+            "parseInt()",
+            "parseFloat()",
+            "toInteger()",
+            "convertInt()"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "Which of the following is not a JavaScript loop?",
+        "options": [
+            "for",
+            "while",
+            "foreach",
+            "do-while"
+        ],
+        "answer": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "Which of the following is the correct way to write an array in JavaScript?",
+        "options": [
+            "[1, 2, 3]",
+            "{1, 2, 3}",
+            "(1, 2, 3)",
+            "<1, 2, 3>"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "How do you create a new object in JavaScript?",
+        "options": [
+            "var obj = {}",
+            "var obj = new Object()",
+            "Both",
+            "None"
+        ],
+        "answer": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "js",
+        "question": "What does the 'this' keyword refer to in JavaScript?",
+        "options": [
+            "The current function",
+            "The parent object",
+            "The global object",
+            "The calling object"
+        ],
+        "answer": 3,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "How do you define an anonymous function in JavaScript?",
+        "options": [
+            "function() {}",
+            "function name() {}",
+            "() => {}",
+            "Both A and C"
+        ],
+        "answer": 3,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "What does the 'bind' method do in JavaScript?",
+        "options": [
+            "It binds a variable to a function",
+            "It creates a new function with a specific 'this' value",
+            "It binds multiple functions",
+            "It binds the arguments"
+        ],
+        "answer": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "How do you check if a value is NaN in JavaScript?",
+        "options": [
+            "isNaN()",
+            "checkNaN()",
+            "NaN()",
+            "checkValue()"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "Which method would you use to remove the last element of an array?",
+        "options": [
+            "pop()",
+            "shift()",
+            "slice()",
+            "delete()"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "How can you convert a number to a string in JavaScript?",
+        "options": [
+            "toString()",
+            "Number.toString()",
+            "String()",
+            "Both A and C"
+        ],
+        "answer": 3,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "Which of the following will return 'true'?",
+        "options": [
+            "5 === '5'",
+            "5 == '5'",
+            "5 === 5",
+            "5 === 'five'"
+        ],
+        "answer": 2,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "Which statement will create a copy of an object in JavaScript?",
+        "options": [
+            "Object.assign({}, obj)",
+            "obj.copy()",
+            "clone(obj)",
+            "Object.create()"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "Which of the following is true about JavaScript's event delegation?",
+        "options": [
+            "It allows events to be triggered on child elements",
+            "It allows events to be bound to an event handler",
+            "It attaches events to a parent element and propagates down",
+            "All of the above"
+        ],
+        "answer": 3,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "What will the following code log to the console: console.log(5 + '5')?",
+        "options": [
+            "10",
+            "'55'",
+            "Error",
+            "NaN"
+        ],
+        "answer": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "js",
+        "question": "What does the 'call' method do in JavaScript?",
+        "options": [
+            "It calls a function immediately",
+            "It allows you to call a method with a specified 'this' value and arguments",
+            "It sets a timeout for a function call",
+            "It schedules a function to be called repeatedly"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "How do you define a generator function in JavaScript?",
+        "options": [
+            "function* myFunction() {}",
+            "function myFunction*() {}",
+            "function*myFunction() {}",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "Which method can be used to create a new array from an existing array by modifying its elements?",
+        "options": [
+            "map()",
+            "reduce()",
+            "filter()",
+            "forEach()"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "How can you avoid callback hell in JavaScript?",
+        "options": [
+            "By using async/await",
+            "By chaining promises",
+            "By modularizing the code",
+            "All of the above"
+        ],
+        "answer": 3,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "Which JavaScript feature helps in asynchronous programming?",
+        "options": [
+            "Promises",
+            "Callbacks",
+            "async/await",
+            "All of the above"
+        ],
+        "answer": 3,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "What does the 'new' keyword do in JavaScript?",
+        "options": [
+            "Creates a new object and invokes a constructor",
+            "Creates a new function",
+            "Instantiates a new class",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "What is a closure in JavaScript?",
+        "options": [
+            "A function that references variables from an outer scope",
+            "A type of variable",
+            "A way to cache function results",
+            "A built-in function"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "What is the main purpose of 'setTimeout' in JavaScript?",
+        "options": [
+            "To repeat a function after a specified time",
+            "To call a function once after a delay",
+            "To call a function immediately",
+            "To schedule a function to be called periodically"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "Which method returns the value of the first item in an array that satisfies a condition?",
+        "options": [
+            "find()",
+            "filter()",
+            "map()",
+            "reduce()"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "What is the purpose of the 'eval()' function in JavaScript?",
+        "options": [
+            "Executes a string of JavaScript code",
+            "Converts a string into an object",
+            "Evaluates an expression",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "js",
+        "question": "What is the 'async' keyword used for in JavaScript?",
+        "options": [
+            "To define an asynchronous function",
+            "To create a promise",
+            "To define a callback",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "Which of the following can cause memory leaks in JavaScript?",
+        "options": [
+            "Global variables",
+            "Unclosed event listeners",
+            "Not nullifying references",
+            "All of the above"
+        ],
+        "answer": 3,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "What is 'currying' in JavaScript?",
+        "options": [
+            "A way to create new functions by fixing arguments",
+            "A method for chaining functions",
+            "A technique for working with arrays",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "What is the result of calling 'undefined == null' in JavaScript?",
+        "options": [
+            "true",
+            "false",
+            "undefined",
+            "null"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "How do you perform deep cloning of an object in JavaScript?",
+        "options": [
+            "By using JSON.parse() and JSON.stringify()",
+            "By using Object.assign()",
+            "By using the spread operator",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "What is 'event bubbling' in JavaScript?",
+        "options": [
+            "The event propagates up from the target element to the root",
+            "The event propagates down from the root to the target element",
+            "The event is triggered on the root element only",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "What is the 'prototype chain' in JavaScript?",
+        "options": [
+            "A sequence of objects inherited by all JavaScript objects",
+            "A chain of function calls",
+            "A collection of built-in methods",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "How can you prevent a function from being called multiple times in JavaScript?",
+        "options": [
+            "By using debounce",
+            "By using throttle",
+            "By using a flag",
+            "All of the above"
+        ],
+        "answer": 3,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "What does the 'reflect' object do in JavaScript?",
+        "options": [
+            "Provides methods for intercepting JavaScript operations",
+            "Reflects the current state of the JavaScript environment",
+            "Intercepts changes in JavaScript objects",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "js",
+        "question": "Which of the following is not a type of closure in JavaScript?",
+        "options": [
+            "Local closure",
+            "Global closure",
+            "Function closure",
+            "None"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "What is Node.js?",
+        "options": [
+            "A JavaScript library for building UI",
+            "A runtime environment for executing JavaScript on the server",
+            "A database management tool",
+            "A framework for Java applications"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "Which command is used to initialize a new Node.js project?",
+        "options": [
+            "npm init",
+            "node start",
+            "npm new",
+            "node init"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "Which module is used to handle file system operations in Node.js?",
+        "options": [
+            "fs",
+            "http",
+            "path",
+            "os"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "Which method is used to create a server in Node.js?",
+        "options": [
+            "http.createServer()",
+            "node.createServer()",
+            "server.createHttp()",
+            "http.newServer()"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "Which of the following is a built-in Node.js module?",
+        "options": [
+            "express",
+            "fs",
+            "mongoose",
+            "react"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "What does the `process` module in Node.js do?",
+        "options": [
+            "Manages HTTP requests",
+            "Provides information about the current Node.js process",
+            "Handles file system operations",
+            "Manages databases"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "How do you install a package globally using npm?",
+        "options": [
+            "npm install <package>",
+            "npm install -g <package>",
+            "npm global add <package>",
+            "npm add -global <package>"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "Which keyword is used to import modules in Node.js?",
+        "options": [
+            "import",
+            "require",
+            "use",
+            "load"
+        ],
+        "answer": 1,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "What is npm?",
+        "options": [
+            "Node.js Package Manager",
+            "Network Programming Module",
+            "Node.js Project Manager",
+            "None of the above"
+        ],
+        "answer": 0,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "Which command is used to check the installed version of Node.js?",
+        "options": [
+            "node --version",
+            "node -v",
+            "both 1 and 2",
+            "node version"
+        ],
+        "answer": 2,
+        "difficulty": "easy"
+    },
+    {
+        "category": "node",
+        "question": "What is middleware in Node.js?",
+        "options": [
+            "Functions that execute during the lifecycle of a request to a server",
+            "A tool for managing databases",
+            "A library for front-end development",
+            "A built-in Node.js module"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "Which module in Node.js is used to create a web server?",
+        "options": [
+            "http",
+            "url",
+            "express",
+            "net"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "How can you read a file asynchronously in Node.js?",
+        "options": [
+            "fs.readFileSync()",
+            "fs.readFile()",
+            "fs.asyncReadFile()",
+            "fs.readAsyncFile()"
+        ],
+        "answer": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "What does `path.join()` do in Node.js?",
+        "options": [
+            "Combines multiple path segments into one",
+            "Reads the content of a directory",
+            "Deletes a file",
+            "Starts a Node.js server"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "Which statement about EventEmitter in Node.js is correct?",
+        "options": [
+            "It is used to handle HTTP requests",
+            "It allows one to subscribe to and trigger events",
+            "It manages file system operations",
+            "It is a database connection module"
+        ],
+        "answer": 1,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "What is the purpose of `__dirname` in Node.js?",
+        "options": [
+            "Gives the directory name of the currently executing file",
+            "Gives the file name of the currently executing file",
+            "Loads modules",
+            "Defines environment variables"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "What does the `cluster` module do in Node.js?",
+        "options": [
+            "Creates child processes to handle requests",
+            "Clusters multiple servers together",
+            "Handles HTTP requests",
+            "Manages database queries"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "What is the purpose of `res.send()` in Node.js?",
+        "options": [
+            "To send a response to the client",
+            "To send a request to another server",
+            "To manage middleware",
+            "To handle errors"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "What is the purpose of the `os` module in Node.js?",
+        "options": [
+            "To interact with the operating system",
+            "To create a web server",
+            "To manage events",
+            "To handle file system operations"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "Which method is used to write data to a stream in Node.js?",
+        "options": [
+            "write()",
+            "send()",
+            "data()",
+            "streamData()"
+        ],
+        "answer": 0,
+        "difficulty": "medium"
+    },
+    {
+        "category": "node",
+        "question": "What is the purpose of the `cluster` module in Node.js?",
+        "options": [
+            "To implement multi-threading",
+            "To allow multiple Node.js processes to share the same server port",
+            "To group related modules together",
+            "To create a database connection pool"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "What does the `process.nextTick()` method do?",
+        "options": [
+            "Schedules a callback function to run after the current event loop phase",
+            "Schedules a callback for the next iteration of the event loop",
+            "Pauses the event loop for debugging",
+            "Blocks the event loop until a promise is resolved"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "What is the difference between `setImmediate()` and `process.nextTick()`?",
+        "options": [
+            "`setImmediate()` executes before `process.nextTick()`",
+            "`process.nextTick()` executes before `setImmediate()`",
+            "`setImmediate()` runs in the next event loop phase, while `process.nextTick()` runs immediately",
+            "`process.nextTick()` runs after `setImmediate()`"
+        ],
+        "answer": 2,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "Which module is used for stream-based I/O in Node.js?",
+        "options": [
+            "Buffer",
+            "Stream",
+            "FS",
+            "Zlib"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "What happens if you call `res.end()` twice in an HTTP server?",
+        "options": [
+            "The server will log an error",
+            "An exception will be thrown",
+            "The second call will be ignored",
+            "The server will crash"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "How can you handle uncaught exceptions in a Node.js application?",
+        "options": [
+            "Using `process.on('uncaughtException', callback)`",
+            "Using `process.on('error', callback)`",
+            "Using `require('exception-handler')`",
+            "Using `try-catch` blocks everywhere"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "What is the `worker_threads` module used for?",
+        "options": [
+            "To create child processes",
+            "To enable multi-threading in Node.js",
+            "To manage cluster instances",
+            "To schedule I/O tasks"
+        ],
+        "answer": 1,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "What does the `Readable` stream's `pause()` method do?",
+        "options": [
+            "Pauses the flow of data events",
+            "Stops the stream permanently",
+            "Clears the stream buffer",
+            "Prevents data from being written to the stream"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "What is the default behavior of Node.js regarding handling unhandled promise rejections?",
+        "options": [
+            "Logs a warning to the console",
+            "Terminates the process immediately",
+            "Ignores the rejection",
+            "Retries the promise automatically"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "What does the `zlib.createGzip()` method do?",
+        "options": [
+            "Compresses data using gzip",
+            "Decompresses gzip files",
+            "Encrypts data for secure storage",
+            "Encodes data in Base64"
+        ],
+        "answer": 0,
+        "difficulty": "hard"
+    },
+    {
+        "category": "node",
+        "question": "How does Node.js implement non-blocking I/O?",
+        "options": [
+            "Using multi-threading",
+            "Using the Event Loop and callback functions",
+            "Using synchronous I/O methods",
+            "Using worker threads only"
+        ],
+        "answer": 1,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "What is the purpose of the `net` module in Node.js?",
+        "options": [
+            "To perform network operations at the TCP or IPC level",
+            "To handle HTTPS requests",
+            "To manage WebSocket connections",
+            "To make HTTP requests"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "Which object is used in Node.js to work with binary data?",
+        "options": [
+            "Buffer",
+            "Stream",
+            "Blob",
+            "DataView"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "What does the `http2.createServer()` method do?",
+        "options": [
+            "Creates a server that supports HTTP/1.1 and HTTP/2",
+            "Creates an HTTP/2-only server",
+            "Creates a secure HTTPS server",
+            "Creates a WebSocket server"
+        ],
+        "answer": 1,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "What is the primary benefit of the EventEmitter pattern?",
+        "options": [
+            "Improves application performance",
+            "Facilitates asynchronous event-driven programming",
+            "Allows synchronous API design",
+            "Simplifies error handling"
+        ],
+        "answer": 1,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "Which method is used to send headers and data in an HTTP response?",
+        "options": [
+            "res.sendHeaders()",
+            "res.write()",
+            "res.writeHead()",
+            "res.end()"
+        ],
+        "answer": 1,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "What is the use of the `dns.lookup()` method in the `dns` module?",
+        "options": [
+            "To resolve a domain name to its IP address",
+            "To verify DNS record consistency",
+            "To create a DNS server",
+            "To configure DNS settings"
+        ],
+        "answer": 0,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "Which of the following is true about streams in Node.js?",
+        "options": [
+            "They can only be used for reading data",
+            "They are only available in the `fs` module",
+            "They handle data chunk by chunk",
+            "They cannot be paused"
+        ],
+        "answer": 2,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "What is the main purpose of the `uv` library in Node.js?",
+        "options": [
+            "To handle file system operations",
+            "To provide the Event Loop and asynchronous I/O",
+            "To process HTTP requests",
+            "To implement WebSocket connections"
+        ],
+        "answer": 1,
+        "difficulty": "expert"
+    },
+    {
+        "category": "node",
+        "question": "Which flag is used to enable the inspector for debugging in Node.js?",
+        "options": [
+            "--debug",
+            "--inspect",
+            "--devtools",
+            "--trace-debug"
+        ],
+        "answer": 1,
+        "difficulty": "expert"
+    }
+]

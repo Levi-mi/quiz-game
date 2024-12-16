@@ -1,0 +1,541 @@
+[
+  {
+    "category": "mongo",
+    "question": "Which of the following is correct about MongoDB?",
+    "options": [
+      "It’s a NoSQL database that uses collections and documents.",
+      "It’s a SQL-based relational database.",
+      "It only supports schema-based data.",
+      "It doesn’t support indexing."
+    ],
+    "answer": 0
+  },
+  {
+    "category": "mongo",
+    "question": "Which method would you use to find a document by its _id in MongoDB?",
+    "options": [
+      "db.collection.getById()",
+      "db.collection.findOne()",
+      "db.collection.searchById()",
+      "db.collection.find({ _id })"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "mongo",
+    "question": "What command is used to update only specific fields in a MongoDB document?",
+    "options": [
+      "update()",
+      "updateFields()",
+      "updateOne()",
+      "partialUpdate()"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "mongo",
+    "question": "In MongoDB, how do you retrieve all documents where a field score is greater than 80?",
+    "options": [
+      "db.collection.find({ score: { \"$gt\": 80 } })",
+      "db.collection.find({ score: { \"$lt\": 80 } })",
+      "db.collection.find({ score: { \"$gte\": 80 } })",
+      "db.collection.query({ score: \">80\" })"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "mongo",
+    "question": "Which of these is used to remove all documents from a MongoDB collection?",
+    "options": [
+      "deleteAll()",
+      "drop()",
+      "removeAll()",
+      "deleteMany()"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "mongo",
+    "question": "Which MongoDB command will sort results by the field name in ascending order?",
+    "options": [
+      "db.collection.find().orderBy({ name: 1 })",
+      "db.collection.find().sort({ name: 1 })",
+      "db.collection.find().sortBy({ name: \"asc\" })",
+      "db.collection.sort({ name: 1 })"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "mongo",
+    "question": "What is the default port number for MongoDB?",
+    "options": [
+      "3306",
+      "8080",
+      "27017",
+      "5432"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "mongo",
+    "question": "In MongoDB, which of these is used for creating an index?",
+    "options": [
+      "db.collection.addIndex()",
+      "db.collection.setIndex()",
+      "db.collection.createIndex()",
+      "db.collection.index()"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "mongo",
+    "question": "What type of data structure does MongoDB use to store data?",
+    "options": [
+      "Tables and Rows",
+      "Collections and Documents",
+      "Arrays and Objects",
+      "Key-Value Pairs"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "mongo",
+    "question": "Which of the following is NOT a valid MongoDB data type?",
+    "options": [
+      "String",
+      "Date",
+      "Array",
+      "Table"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "express",
+    "question": "What is Express.js primarily used for?",
+    "options": [
+      "Database management",
+      "Building backend services",
+      "Handling frontend frameworks",
+      "Compiling JavaScript"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "express",
+    "question": "Which method in Express.js is used to handle GET requests?",
+    "options": [
+      "app.get()",
+      "app.fetch()",
+      "app.retrieve()",
+      "app.request()"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "express",
+    "question": "In Express.js, what does 'app.use()' do?",
+    "options": [
+      "Defines a new endpoint",
+      "Sets a port for the app",
+      "Mounts middleware",
+      "Returns server status"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "express",
+    "question": "Which of the following will parse incoming JSON requests in Express?",
+    "options": [
+      "express.json()",
+      "express.parser()",
+      "express.JSONparse()",
+      "express.convert()"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "express",
+    "question": "How do you specify a route parameter in Express.js?",
+    "options": [
+      "Using curly braces {}",
+      "Using the dollar sign $",
+      "Using a colon :",
+      "Using a hash #"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "express",
+    "question": "Which status code is typically sent for a 'Not Found' error?",
+    "options": [
+      "200",
+      "500",
+      "404",
+      "403"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "express",
+    "question": "How can you serve static files in Express?",
+    "options": [
+      "app.staticFiles()",
+      "app.files()",
+      "app.serveStatic()",
+      "app.use(express.static())"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "express",
+    "question": "Which Express.js function handles errors globally?",
+    "options": [
+      "app.errorHandler()",
+      "app.error()",
+      "app.use() with error-handling middleware",
+      "app.globalError()"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "express",
+    "question": "What does 'next()' do in Express.js middleware?",
+    "options": [
+      "Stops the request",
+      "Passes control to the next middleware",
+      "Redirects the user",
+      "Ends the response"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "express",
+    "question": "In Express.js, which module is often used for handling JSON Web Tokens (JWT)?",
+    "options": [
+      "express-jwt",
+      "express-json",
+      "jwt-decode",
+      "jwt-handler"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "react",
+    "question": "What is the primary purpose of React?",
+    "options": [
+      "To manage backend routing",
+      "To create server applications",
+      "To build user interfaces",
+      "To compile JavaScript code"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "react",
+    "question": "Which hook in React is used to manage state?",
+    "options": [
+      "useState",
+      "useReducer",
+      "useEffect",
+      "useContext"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "react",
+    "question": "What does the useEffect hook in React do?",
+    "options": [
+      "Updates component state",
+      "Handles DOM manipulations",
+      "Performs side effects",
+      "Returns JSX elements"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "react",
+    "question": "In React, what is JSX?",
+    "options": [
+      "JavaScript-based XML-like syntax",
+      "JavaScript Extension",
+      "Java Syntax Extension",
+      "A new programming language"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "react",
+    "question": "What does React use to efficiently update the DOM?",
+    "options": [
+      "Real DOM",
+      "Virtual DOM",
+      "Direct DOM",
+      "Shadow DOM"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "react",
+    "question": "How do you pass data from a parent to a child component in React?",
+    "options": [
+      "Using props",
+      "Using states",
+      "Using events",
+      "Using context"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "react",
+    "question": "Which of the following can be used for conditional rendering in React?",
+    "options": [
+      "if-else",
+      "ternary operator",
+      "logical AND",
+      "All of the above"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "react",
+    "question": "Which method is used to render elements in a React application?",
+    "options": [
+      "React.render()",
+      "ReactDOM.render()",
+      "renderElement()",
+      "DOM.render()"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "react",
+    "question": "What’s the default port for a React application?",
+    "options": [
+      "3000",
+      "8080",
+      "4000",
+      "9000"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "react",
+    "question": "In which file are the main imports and ReactDOM.render() usually found?",
+    "options": [
+      "App.js",
+      "index.js",
+      "App.css",
+      "package.json"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "node",
+    "question": "What is Node.js primarily used for?",
+    "options": [
+      "Client-side scripting",
+      "Server-side scripting",
+      "Database management",
+      "Styling web pages"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "node",
+    "question": "Which module in Node.js is used for handling file system operations?",
+    "options": [
+      "http",
+      "fs",
+      "path",
+      "os"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "node",
+    "question": "In Node.js, which method is used to create an HTTP server?",
+    "options": [
+      "http.createServer()",
+      "node.createServer()",
+      "express.createServer()",
+      "server.create()"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "node",
+    "question": "Which of the following is NOT a core module in Node.js?",
+    "options": [
+      "http",
+      "fs",
+      "express",
+      "path"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "node",
+    "question": "What command runs a JavaScript file in Node?",
+    "options": [
+      "node filename.js",
+      "npm filename.js",
+      "js filename.js",
+      "run filename.js"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "node",
+    "question": "Which of the following will install the express package locally in Node?",
+    "options": [
+      "install express",
+      "node install express",
+      "npm install express",
+      "install npm express"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "node",
+    "question": "In Node.js, how can you export a function from one file to another?",
+    "options": [
+      "use import functionName",
+      "use exports.functionName",
+      "use module.export",
+      "use module.exports"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "node",
+    "question": "Which method is used to read the contents of a file in Node.js?",
+    "options": [
+      "fs.readFile",
+      "fs.writeFile",
+      "fs.openFile",
+      "fs.loadFile"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "node",
+    "question": "Which of these will terminate the process in Node.js?",
+    "options": [
+      "exit()",
+      "process.exit()",
+      "node.exit()",
+      "end()"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "js",
+    "question": "Which of the following is a way to declare a variable in JavaScript?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "All of the above"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "js",
+    "question": "What will the following code output? `console.log(typeof null)`",
+    "options": [
+      "'object'",
+      "'null'",
+      "'undefined'",
+      "'string'"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "js",
+    "question": "Which method is used to add one or more elements to the end of an array?",
+    "options": [
+      "push()",
+      "pop()",
+      "shift()",
+      "unshift()"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "js",
+    "question": "What will `NaN === NaN` evaluate to in JavaScript?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "js",
+    "question": "Which of the following is used to define a function in JavaScript?",
+    "options": [
+      "def myFunction()",
+      "function myFunction()",
+      "fn myFunction()",
+      "func myFunction()"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "js",
+    "question": "What is the output of `console.log(1 + '2' + 3);`?",
+    "options": [
+      "'6'",
+      "'123'",
+      "'15'",
+      "Error"
+    ],
+    "answer": 1
+  },
+  {
+    "category": "js",
+    "question": "How can you convert a string to an integer in JavaScript?",
+    "options": [
+      "parseInt()",
+      "Number()",
+      "Both parseInt() and Number()",
+      "convertInt()"
+    ],
+    "answer": 2
+  },
+  {
+    "category": "js",
+    "question": "What will the following code output? `console.log([1, 2, 3] instanceof Array);`",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "answer": 0
+  },
+  {
+    "category": "js",
+    "question": "Which of the following methods can be used to find a string within another string?",
+    "options": [
+      "find()",
+      "search()",
+      "locate()",
+      "indexOf()"
+    ],
+    "answer": 3
+  },
+  {
+    "category": "js",
+    "question": "Which of the following is not a JavaScript data type?",
+    "options": [
+      "Number",
+      "String",
+      "Boolean",
+      "Character"
+    ],
+    "answer": 3
+  }
+]

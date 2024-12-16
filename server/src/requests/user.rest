@@ -1,0 +1,12 @@
+GET http://localhost:3001/questions/all
+###
+
+
+GET http://localhost:3001/questions/express 
+
+###
+GET http://localhost:3001/categories/all HTTP/1.1
+
+###
+GET http://localhost:3001/random-questions/all HTTP/1.1
+
