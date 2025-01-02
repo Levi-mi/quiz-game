@@ -3,12 +3,13 @@ import { CategoryContext } from '../../../useManager/useContextManager.jsx';
 import Loader from '../../../assets/Loader';
 import Error from '../../../assets/Error';
 import useAxiosGet from '../../../hooks/useAxiosGet.jsx';
+import URLs from '../../../contants/URLS.js';
 
 const Category = () => {
     const { setChosenCategory, chosenCategory, setIsSelected } = useContext(CategoryContext);
 
     const { data: categories, error, isLoading } = chosenCategory !== 'random' ? useAxiosGet({
-        URI: 'http://localhost:3001/categories/all',
+        URI: URLs.categories,
         initialValue: []
     }) : { data: [], error: null, isLoading: false };
 

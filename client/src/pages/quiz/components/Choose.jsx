@@ -14,8 +14,6 @@ const Choose = () => {
         else return 'chosen-difficulty'
     }
 
-    console.log(Difficulty);
-
     return (
         <div className={styles.class}>
             <div>

@@ -1,6 +1,5 @@
-import React from 'react'
-import Header from './components/Header'
-import Direct from './components/Direct'
+import Header from './components/Header';
+import Direct from './components/Direct';
 
 const HomePage = () => {
     return (
@@ -8,7 +7,7 @@ const HomePage = () => {
             <Header />
             <Direct />
         </>
-    )
-}
+    );
+};
 
-export default HomePage
+export default HomePage;

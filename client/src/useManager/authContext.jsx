@@ -1,3 +1,4 @@
+import URLs from "../contants/URLS";
 import axios from 'axios';
 import React, { createContext, useState, useEffect } from 'react';
 
@@ -8,7 +9,7 @@ export const AuthProvider = ({ children }) => {
 
   const fetchUserInfo = async () => {
     try {
-      const response = await axios.get('http://localhost:3001/auth/info', {
+      const response = await axios.get(URLs.info, {
         withCredentials: true,
       });
 
@@ -16,36 +17,33 @@ export const AuthProvider = ({ children }) => {
         setUser(response.data);
       }
     } catch (error) {
-      console.error('User not authenticated:', error);
+      console.log("User not authenticated:", error);
       setUser(null);
     }
   };
 
-  const login = async (userData) => {
+  const login = async (userLoginData) => {
     try {
-      const { data } = await axios.post(
-        'http://localhost:3001/auth/login',
-        userData,
-        {
-          withCredentials: true,
-        }
+      const response = await axios.post(URLs.login, userLoginData,
+        { withCredentials: true }
       );
-
-      setUser(userData);
+      setUser(response.data.user);
     } catch (error) {
-      console.error('Login failed:', error);
+      console.error("Login failed:", error.response.data.message);
     }
   };
 
   const logout = async () => {
-    await axios.get('http://localhost:3001/auth/logout', {
-      withCredentials: true,
-    });
-    setUser(null);
+    try {
+      await axios.get(URLs.logout, { withCredentials: true });
+      setUser(null);
+    } catch (error) {
+      console.error("Logout failed:", error);
+    }
   };
 
   const register = async (userData) => {
-    await axios.post('http://localhost:3001/auth/register', userData, {
+    await axios.post(URLs.register, userData, {
       withCredentials: true,
     });
   };
@@ -55,7 +53,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user, login, logout, register }}>
+    <AuthContext.Provider value={{ user, setUser, login, logout, register }}>
       {children}
     </AuthContext.Provider>
   );

@@ -1,17 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../useManager/authContext';
 
 const Navbar = () => {
   const { user, logout } = useAuth();
+  const navigate = useNavigate();
   return (
     <div className="navbar-container">
-      <Link to={'/'}>Logo(welcome User?)</Link>
+      <Link to={'/'}>Welcome {user ? user.username : 'Guest'}</Link>
       <div>
         {user ? (
           <>
             <Link to={'/profile'}>Profile</Link>
-            <button onClick={logout}>Logout</button>
+            <button onClick={() => {
+              logout()
+              navigate("/")
+            }}>Logout</button>
           </>
         ) : (
           <>
