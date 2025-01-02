@@ -1,10 +1,9 @@
-import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../../useManager/authContext';
+import { useAuth } from '../../../useManager/authContext';
 
 const Direct = () => {
     const navigate = useNavigate();
-    const { user } = useContext(AuthContext);
+    const { user } = useAuth()
 
     const startQuiz = () => {
         navigate('/quiz');

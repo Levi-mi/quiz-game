@@ -22,8 +22,6 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-
-
   const login = async (userLoginData) => {
     try {
       const response = await axios.post(URLs.login, userLoginData,
@@ -55,7 +53,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user, setUser, login, logout }}>
+    <AuthContext.Provider value={{ user, setUser, login, logout, register }}>
       {children}
     </AuthContext.Provider>
   );
