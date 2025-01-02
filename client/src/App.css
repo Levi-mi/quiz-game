@@ -16,12 +16,16 @@
   src: url('./fonts/Coolvetica_Rg_Cram.otf') format('opentype');
 }
 
-
 body {
   margin: 0 auto;
-  font-family: "Parkinsans", sans-serif;
+  font-family: 'Parkinsans', sans-serif;
   font-weight: 300;
-  background: linear-gradient(to right, rgb(230, 204, 0), rgb(230, 180, 0), rgb(230, 204, 0));
+  background: linear-gradient(
+    to right,
+    rgb(230, 204, 0),
+    rgb(230, 180, 0),
+    rgb(230, 204, 0)
+  );
 }
 
 .navbar-container {
@@ -48,30 +52,42 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-}
-
-label {
-  display: block;
+  gap: 8px;
+  div {
+    display: flex;
+    label {
+      flex-grow: 1;
+      text-align: left;
+    }
+    input {
+      margin-left: auto;
+      width: 60%;
+    }
+  }
 }
 
 .difficulty-button {
-  background: linear-gradient(to right,
-      rgb(230, 180, 0),
-      rgb(230, 204, 0),
-      rgb(230, 180, 0));
+  background: linear-gradient(
+    to right,
+    rgb(230, 180, 0),
+    rgb(230, 204, 0),
+    rgb(230, 180, 0)
+  );
   border-color: #e69b00;
 }
 
 .chosen-difficulty {
-  background: linear-gradient(to right,
-      rgb(230, 204, 0),
-      rgb(230, 180, 0),
-      rgb(230, 204, 0), );
+  background: linear-gradient(
+    to right,
+    rgb(230, 204, 0),
+    rgb(230, 180, 0),
+    rgb(230, 204, 0)
+  );
   border-color: #e69b00;
 }
 
 button {
-  font-family: "Parkinsans", sans-serif;
+  font-family: 'Parkinsans', sans-serif;
   font-weight: 300;
   margin: 3px;
 }
@@ -99,10 +115,12 @@ button:active {
 }
 
 .category-button {
-  background: linear-gradient(to right,
-      rgb(230, 180, 0),
-      rgb(230, 204, 0),
-      rgb(230, 180, 0));
+  background: linear-gradient(
+    to right,
+    rgb(230, 180, 0),
+    rgb(230, 204, 0),
+    rgb(230, 180, 0)
+  );
   border-color: #e69b00;
   border-width: 0.5px;
   border-radius: 5px;
@@ -110,10 +128,12 @@ button:active {
 }
 
 .category-button:hover {
-  background: linear-gradient(to right,
-      rgb(230, 180, 0) -30%,
-      rgb(230, 204, 0),
-      rgb(230, 180, 0) 130%);
+  background: linear-gradient(
+    to right,
+    rgb(230, 180, 0) -30%,
+    rgb(230, 204, 0),
+    rgb(230, 180, 0) 130%
+  );
   color: rgb(70, 20, 20);
 }
 
@@ -143,13 +163,13 @@ button:active {
 
 .content-title {
   margin-top: 0;
-  font-family: "Parkinsans", sans-serif;
+  font-family: 'Parkinsans', sans-serif;
   font-weight: 400;
   font-size: 30px;
 }
 
 .game-title {
-  font-family: "Parkinsans", sans-serif;
+  font-family: 'Parkinsans', sans-serif;
   font-weight: bold;
   font-size: 50px;
 }
@@ -173,7 +193,7 @@ button:active {
 }
 
 .text {
-  font-family: "Parkinsans", sans-serif;
+  font-family: 'Parkinsans', sans-serif;
   font-weight: 300;
   margin: 0 auto 10px;
   width: 400px;
@@ -187,4 +207,9 @@ button:active {
 .false {
   background-color: rgba(255, 0, 0, 0.6);
   cursor: auto;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
 }
