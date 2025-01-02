@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Card from './Card';
-import { CategoryContext, QuestionContext, PointsContext } from '../useManager/useContextManager.jsx';
-import Loader from '../assets/Loader';
-import Error from '../assets/Error';
-import useAxiosGet from '../hooks/useAxiosGet.jsx';
+import { CategoryContext, QuestionContext, PointsContext } from '../../../useManager/useContextManager.jsx';
+import Loader from '../../../assets/Loader';
+import Error from '../../../assets/Error';
+import useAxiosGet from '../../../hooks/useAxiosGet.jsx';
 
 const Questions = () => {
     const { difficulty, setDifficulty, chosenCategory, setChosenCategory, setIsSelected } = useContext(CategoryContext);
@@ -23,12 +23,11 @@ const Questions = () => {
     };
 
     const { data: questions, error: isError, isLoading: loading } = useAxiosGet({
-        URI: `http://localhost:3001/questions/${chosenCategory}/${difficulty}`,
+        URI: `http://localhost:3001/questions/${chosenCategory}${difficulty ? `/${difficulty}` : ''}`
+        ,
         initialValue: [],
         deps: [chosenCategory]
     })
-
-    console.log(chosenCategory, "chosen");
 
     return (
         <>

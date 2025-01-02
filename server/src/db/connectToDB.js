@@ -1,9 +1,12 @@
 import mongoose from "mongoose"
+import dotenv from "dotenv"
+
+dotenv.config()
+
 const connectToDB = async () => {
   try {
     console.log("db is connecting...")
-    await mongoose.connect("mongodb+srv://User:aA123456@cluster0.4cfey.mongodb.net/Quiz?retryWrites=true&w=majority&appName=Cluster0/Quiz"
-)
+    await mongoose.connect(process.env.MONGO_URI)
     console.log("db is connected")
   } catch (error) {
     console.log(error)

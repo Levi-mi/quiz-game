@@ -1,11 +1,10 @@
 import React, { useContext, useState } from 'react';
 import { QuestionContext } from '../../../useManager/useContextManager.jsx';
 import { PointsContext } from '../../../useManager/useContextManager.jsx';
-import Questions from './Questions.jsx';
 
 const Card = ({ object, questionsLength }) => {
     const { chosenQuestion, setChosenQuestion, answers, setAnswers } = useContext(QuestionContext);
-    const { setPoints, endQuiz, setEndQuiz } = useContext(PointsContext);
+    const { setPoints, setEndQuiz } = useContext(PointsContext);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
 
     const trueAnswer = object.answer;

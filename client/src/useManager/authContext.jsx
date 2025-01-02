@@ -1,3 +1,4 @@
+import URLs from "../contants/URLS";
 import axios from "axios";
 import React, { createContext, useState, useEffect } from "react";
 
@@ -9,7 +10,7 @@ export const AuthProvider = ({ children }) => {
     useEffect(() => {
         const fetchUserInfo = async () => {
             try {
-                const response = await axios.get("http://localhost:3000/auth/info", {
+                const response = await axios.get(URLs.info, {
                     withCredentials: true,
                 });
 
@@ -25,13 +26,20 @@ export const AuthProvider = ({ children }) => {
         fetchUserInfo();
     }, []);
 
-    const login = (userData) => {
-        setUser(userData);
+    const login = async (userLoginData) => {
+        try {
+            const response = await axios.post(URLs.login, userLoginData,
+                { withCredentials: true }
+            );
+            setUser(response.data.user);
+        } catch (error) {
+            console.error("Login failed:", error.response.data.message);
+        }
     };
 
     const logout = async () => {
         try {
-            await axios.get("http://localhost:3000/auth/logout", { withCredentials: true });
+            await axios.get(URLs.logout, { withCredentials: true });
             setUser(null);
         } catch (error) {
             console.error("Logout failed:", error);
@@ -39,7 +47,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     return (
-        <AuthContext.Provider value={{ user, login, logout }}>
+        <AuthContext.Provider value={{ user, setUser, login, logout }}>
             {children}
         </AuthContext.Provider>
     );

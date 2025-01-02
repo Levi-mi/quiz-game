@@ -8,7 +8,7 @@ const UseStateManager = ({ children }) => {
     const [chosenCategory, setChosenCategory] = useState('');
     const [chosenQuestion, setChosenQuestion] = useState(0);
     const [questions, setQuestions] = useState([]);
-    const [difficulty, setDifficulty] = useState('');
+    const [difficulty, setDifficulty] = useState(null);
     const [points, setPoints] = useState(0);
     const [endQuiz, setEndQuiz] = useState(false);
     const [isSelected, setIsSelected] = useState(false);

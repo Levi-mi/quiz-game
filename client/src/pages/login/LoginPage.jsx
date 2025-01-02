@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../useManager/authContext";
-import axios from "axios";
 
 
 const Login = () => {
@@ -13,10 +12,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:3000/auth/login", { email, password },
-                { withCredentials: true }
-            );
-            login(response.data);
+            await login({ email, password });
             navigate("/quiz");
         } catch (error) {
             console.error("Login failed:", error.response.data.message);
