@@ -4,6 +4,7 @@ import Answers from './Answers.jsx';
 import Loader from '../../../assets/Loader.jsx';
 import Error from '../../../assets/Error.jsx';
 import useAxiosGet from '../../../hooks/useAxiosGet.jsx';
+import URLs from '../../../constants/URLS.js';
 
 const Score = () => {
     const { points, setPoints, endQuiz, setEndQuiz } = useContext(PointsContext);
@@ -14,7 +15,7 @@ const Score = () => {
     const [flag, setFlag] = useState(true);
 
     const { data: questions, error: isError, isLoading: loading } = useAxiosGet({
-        URI: `http://localhost:3001/questions/${chosenCategory}`,
+        URI: `${URLs.questionsByCategory}/${chosenCategory}`,
         initialValue: [],
         deps: [chosenCategory]
     })

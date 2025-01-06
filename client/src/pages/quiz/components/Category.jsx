@@ -3,7 +3,7 @@ import { CategoryContext } from '../../../useManager/useContextManager.jsx';
 import Loader from '../../../assets/Loader';
 import Error from '../../../assets/Error';
 import useAxiosGet from '../../../hooks/useAxiosGet.jsx';
-import URLs from '../../../contants/URLS.js';
+import URLs from '../../../constants/URLS.js';
 
 const Category = () => {
     const { setChosenCategory, chosenCategory, setIsSelected } = useContext(CategoryContext);

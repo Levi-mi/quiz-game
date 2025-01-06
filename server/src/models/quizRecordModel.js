@@ -16,7 +16,7 @@ const quizRecordSchema = new mongoose.Schema({
     },
     difficulty: {
         type: String,
-        enum: ['Easy', 'Medium', 'Hard'],
+        enum: ['easy', 'medium', 'hard', 'expert', 'random'],
         required: true
     },
     score: {
@@ -24,7 +24,7 @@ const quizRecordSchema = new mongoose.Schema({
         required: true,
     },
     timeTaken: {
-        type: Number, // in seconds
+        type: Number,
         required: true
     },
     correctAnswers: {
