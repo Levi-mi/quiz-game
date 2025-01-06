@@ -1,4 +1,4 @@
-import URLs from "../contants/URLS";
+import URLs from "../constants/URLS";
 import axios from 'axios';
 import React, { createContext, useState, useEffect } from 'react';
 

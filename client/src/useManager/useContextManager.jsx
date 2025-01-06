@@ -15,7 +15,6 @@ const UseStateManager = ({ children }) => {
     const [answers, setAnswers] = useState([]);
 
     return (
-
         <CategoryContext.Provider value={{ difficulty, setDifficulty, chosenCategory, setChosenCategory, isSelected, setIsSelected }}>
             <QuestionContext.Provider value={{ chosenQuestion, setChosenQuestion, questions, setQuestions, answers, setAnswers }}>
                 <PointsContext.Provider value={{ points, setPoints, endQuiz, setEndQuiz }}>

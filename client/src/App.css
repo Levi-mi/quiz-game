@@ -20,12 +20,10 @@ body {
   margin: 0 auto;
   font-family: 'Parkinsans', sans-serif;
   font-weight: 300;
-  background: linear-gradient(
-    to right,
-    rgb(230, 204, 0),
-    rgb(230, 180, 0),
-    rgb(230, 204, 0)
-  );
+  background: linear-gradient(to right,
+      rgb(230, 204, 0),
+      rgb(230, 180, 0),
+      rgb(230, 204, 0));
 }
 
 .navbar-container {
@@ -53,12 +51,15 @@ body {
   flex-direction: column;
   padding: 20px;
   gap: 8px;
+
   div {
     display: flex;
+
     label {
       flex-grow: 1;
       text-align: left;
     }
+
     input {
       margin-left: auto;
       width: 60%;
@@ -67,22 +68,18 @@ body {
 }
 
 .difficulty-button {
-  background: linear-gradient(
-    to right,
-    rgb(230, 180, 0),
-    rgb(230, 204, 0),
-    rgb(230, 180, 0)
-  );
+  background: linear-gradient(to right,
+      rgb(230, 180, 0),
+      rgb(230, 204, 0),
+      rgb(230, 180, 0));
   border-color: #e69b00;
 }
 
 .chosen-difficulty {
-  background: linear-gradient(
-    to right,
-    rgb(230, 204, 0),
-    rgb(230, 180, 0),
-    rgb(230, 204, 0)
-  );
+  background: linear-gradient(to right,
+      rgb(230, 204, 0),
+      rgb(230, 180, 0),
+      rgb(230, 204, 0));
   border-color: #e69b00;
 }
 
@@ -115,12 +112,10 @@ button:active {
 }
 
 .category-button {
-  background: linear-gradient(
-    to right,
-    rgb(230, 180, 0),
-    rgb(230, 204, 0),
-    rgb(230, 180, 0)
-  );
+  background: linear-gradient(to right,
+      rgb(230, 180, 0),
+      rgb(230, 204, 0),
+      rgb(230, 180, 0));
   border-color: #e69b00;
   border-width: 0.5px;
   border-radius: 5px;
@@ -128,12 +123,10 @@ button:active {
 }
 
 .category-button:hover {
-  background: linear-gradient(
-    to right,
-    rgb(230, 180, 0) -30%,
-    rgb(230, 204, 0),
-    rgb(230, 180, 0) 130%
-  );
+  background: linear-gradient(to right,
+      rgb(230, 180, 0) -30%,
+      rgb(230, 204, 0),
+      rgb(230, 180, 0) 130%);
   color: rgb(70, 20, 20);
 }
 
@@ -212,4 +205,10 @@ button:active {
 .error {
   color: red;
   font-size: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
